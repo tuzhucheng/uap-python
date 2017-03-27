@@ -33,7 +33,7 @@ class UserAgentParser(object):
           v2_replacement: a string to override the matched v2 (optional)
         """
         self.pattern = pattern
-        self.user_agent_re = re.compile(self.pattern)
+        self.user_agent_re = re.compile(self.pattern, re.IGNORECASE)
         self.family_replacement = family_replacement
         self.v1_replacement = v1_replacement
         self.v2_replacement = v2_replacement
