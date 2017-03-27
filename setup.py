@@ -181,7 +181,7 @@ setup(
     package_dir={'': '.'},
     license='LICENSE.txt',
     zip_safe=False,
-    url='https://github.com/ua-parser/uap-python',
+    url='https://github.com/tuzhucheng/uap-python',
     include_package_data=True,
     setup_requires=['pyyaml'],
     install_requires=[],
